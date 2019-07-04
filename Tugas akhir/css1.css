@@ -1,0 +1,69 @@
+div.heading h1{/*css untuk heading*/
+    float: center;
+    background: silver;
+    line-height: 65px;
+    text-decoration: none;
+    padding-left: 65px;
+    color: black;
+    font-family: aardvark cafe;
+    font-size: 45px;
+}
+.botom{/*css untuk botom atau bawah*/
+        float: center;
+    background: #B22222;
+    line-height: 65px;
+    text-decoration: none;
+    padding-left: 65px;
+    color: black;
+    text-align: center;
+    font-family: aardvark cafe;
+    font-size: 30px;
+}
+.menu{/*css untuk menu*/
+    background-color: red;
+    color: black;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.meinu:hover{
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+}
+.mainmenubtn {
+    background-color: red;
+    color: black;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+ 
+.mainmenubtn:hover {
+    padding: 20px;
+    background-color: red;
+    }
+ 
+.dropdown {/*css untuk menu menurun*/
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: brown;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+/*class .dropdown-child memiliki rule CSS display:none. Namun, begitu pengunjung mengarahkan kursor (hover) ke (.dropdown:hover) ke induk menu, rule CSS akan langsung berganti menjadi display:block. Ini akan memberikan efek dropdown */
